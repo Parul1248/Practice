@@ -32,7 +32,38 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.increament-button {
+  margin: 20px;
+  padding: 10px 20px !important;
+  background: #32CD32;
+  border: #32CD32;
+  color: #040404 !important;
+  font-family: Arial;
+  font-weight: 700;
+  font-size: 14px !important;
+  line-height: 25px !important;
+  border-radius: 3px;
+  cursor: pointer;
+  text-decoration: none !important;
+}
+
+.decreament-button {
+  margin: 20px;
+  padding: 10px 20px !important;
+  background: #FF6347;
+  border: #FF6347;
+  color: #040404 !important;
+  font-family: Arial;
+  font-weight: 700;
+  font-size: 14px !important;
+  line-height: 25px !important;
+  border-radius: 3px;
+  cursor: pointer;
+  text-decoration: none !important;
 }
